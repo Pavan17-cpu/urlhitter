@@ -2,7 +2,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const URL_TO_HIT = 'https://mserver-lzs3.onrender.com'; // Replace with your URL
+const URL_TO_HIT = 'url'; // Replace with your URL
 
 function App() {
   const [timestamps, setTimestamps] = useState([]);
